@@ -20,4 +20,7 @@ export default class FullList implements List {
   save(): void {
     localStorage.setItem("myList", JSON.stringify(this._list));
   }
+  //   Load()
+  //  clearList()
+  // remove item
 }
