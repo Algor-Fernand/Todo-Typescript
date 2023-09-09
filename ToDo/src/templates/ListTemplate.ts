@@ -22,7 +22,7 @@ export default class ListTemplate implements DOMList{
     render(fullList:FullList):void{
         this.clear()
         fullList.list.forEach(item => {
-
+            this.clear()
         })
     }
     }
